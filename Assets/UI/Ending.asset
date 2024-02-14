@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Ending
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":277.4027,"y":-31.81493},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-330.0,"y":-230.0},"guid":"66bdaebe-5545-441c-b3f0-c277d9275542","$version":"A","$type":"Bolt.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"a92e13c9-b654-40ea-be83-7258668b03fc","$version":"A","$type":"Bolt.Update"},{"defaultValues":{"duration":{"$content":4.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-162.0,"y":-226.0},"guid":"6a06f5f9-c174-4deb-8719-4d9d8c43c752","$version":"A","$type":"Bolt.Timer","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":121.0,"y":-1.0},"guid":"7c909ed0-308b-47b5-8182-e000f16cd279","$version":"A","$type":"Bolt.SuperUnit"},{"argumentCount":0,"defaultValues":{"name":{"$content":"FadeOut","$type":"System.String"},"target":null},"position":{"x":146.0,"y":-240.0},"guid":"b9cf1594-a0d3-45f2-931f-9d45a37a36f0","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"18"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"start","guid":"1f53d3a2-0259-4b0c-8209-7850706591dc","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"completed","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"f99bf349-66c2-4f2e-b591-b5fd1583af7e","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 1feb4500811df2b488849a4b04141fa9, type: 2}

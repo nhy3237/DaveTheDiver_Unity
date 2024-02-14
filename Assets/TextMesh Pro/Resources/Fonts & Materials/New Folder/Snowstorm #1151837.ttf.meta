@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ced422128ac2c5a428b683beac2e03f6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Snowstorm
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 80654a1a50396e345be52d159599ae25, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
